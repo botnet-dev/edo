@@ -122,6 +122,13 @@ footer {
     text-align: center;
 }
 
+.ft {
+background-color: var(--edo-blue) !important;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
 footer ul {
     display: flex;
     justify-content: center;
