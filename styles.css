@@ -1,4 +1,12 @@
 /* General Styles */
+:root {
+    --primary-color: #0f6fb9; /* Blue */
+    --secondary-color: #402e5d; /* Violet */
+    --accent-color: #f98f00; /* Orange */
+    --text-color: #ffffff; /* White for text */
+    --background-color: #f8f9fa; /* Light background */
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
