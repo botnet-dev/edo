@@ -138,3 +138,11 @@ footer ul {
 footer ul li a {
     color: white;
 }
+
+.ft-social-link {
+    color: var(--edo-orange);
+}
+
+.ft-bg {
+    background-color: var(--edo-violet) !important;
+}
