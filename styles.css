@@ -49,6 +49,11 @@ nav ul li a {
     font-weight: bold;
 }
 
+#navbarLogo {
+    height: 30px !important;
+    width: auto;
+}
+
 /* Hero Section */
 .hero {
     background-color: var(--edo-orange); /* Orange */
