@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -45,12 +45,16 @@ nav ul {
 }
 
 nav ul li a {
-    color: white;
-    font-weight: bold;
+    color: white !important;
+    font-weight: 600;
 }
 
-.nav-link {
+/* .nav-link {
     color: white !important;
+} */
+
+.nav-link:hover {
+    color: var(--edo-orange) !important;
 }
 
 .navbar-logo {
