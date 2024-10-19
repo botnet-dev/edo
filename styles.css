@@ -49,7 +49,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-#navbarLogo {
+.navbar-logo {
     height: 30px !important;
     width: auto;
 }
