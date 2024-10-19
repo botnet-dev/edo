@@ -49,6 +49,10 @@ nav ul li a {
     font-weight: bold;
 }
 
+.nav-link {
+    color: white !important;
+}
+
 .navbar-logo {
     height: 30px !important;
     width: auto;
