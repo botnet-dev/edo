@@ -111,6 +111,10 @@ footer p {
     margin: 0.5rem 0;
 }
 
+.ft-social {
+    color: var(--edo-blue) !important;
+}
+
 /* Responsive Media Queries */
 @media (max-width: 768px) {
     .navbar-nav {
