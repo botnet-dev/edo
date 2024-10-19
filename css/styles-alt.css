@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-weight: 700;
+    color: #333;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Navbar Styles */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img.navbar-logo {
+    height: 30px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #FFD700;
+}
+
+/* About Section */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-5 {
+    padding: 3rem 0;
+}
+
+/* Partners Section */
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.row .col-md-3 {
+    margin-bottom: 2rem;
+}
+
+.row .col-md-3 img {
+    max-height: 80px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.row .col-md-3 img:hover {
+    transform: scale(1.05);
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: white;
+    font-size: 0.9rem;
+}
+
+footer a.ft-social {
+    color: #FFD700;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a.ft-social:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px 15px;
+    }
+}
