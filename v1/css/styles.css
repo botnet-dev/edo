@@ -54,6 +54,7 @@ p {
 
 section h3 {
     font-weight: 700;
+    color: var(--edo-violet);
 }
 
 /* About Section */
