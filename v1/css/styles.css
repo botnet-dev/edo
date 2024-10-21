@@ -38,7 +38,7 @@ p {
 }
 
 .navbar-nav .nav-link {
-    color: white;
+    color: var(--edo-orange);
     font-weight: 500;
     padding: 10px;
     transition: color 0.3s ease-in-out;
@@ -46,7 +46,7 @@ p {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-    color: #FFD700;
+    color: var(--edo-violet);
 }
 
 /* About Section */
