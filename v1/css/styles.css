@@ -18,6 +18,9 @@ body {
     box-sizing: border-box;
 }
 
+.bg-jumbo {
+    background-image: linear-gradient(to top right, var(--edo-violet), var(--edo-orange));
+}
 h2 {
     font-weight: 700;
     color: #333;
@@ -47,6 +50,10 @@ p {
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
     color: var(--edo-violet);
+}
+
+section h3 {
+    font-weight: 700;
 }
 
 /* About Section */
