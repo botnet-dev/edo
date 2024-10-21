@@ -6,7 +6,7 @@
     --accent-color: #f98f00; /* Orange */
     --text-color: #ffffff; /* White for text */
     --background-color: #f8f9fa; /* Light background */
-    --edo-blue : var(--primary-color);
+    --edo-blue : #0f6fb9;
     --edo-orange : var(--accent-color);
     --edo-violet : var(--secondary-color);
 }
@@ -28,7 +28,7 @@ h2 {
 
 p {
     font-size: 1.1rem;
-    color: #555;
+    /* color: #555; */
 }
 
 /* Navbar Styles */
@@ -99,8 +99,9 @@ section h3 {
 
 /* Footer Styles */
 footer {
-    background-color: #222;
-    color: white;
+    /* background-color: #222; */
+    background-image: linear-gradient(to right, var(--edo-blue), var(--edo-violet));
+    color: white !important;
     font-size: 0.9rem;
 }
 
