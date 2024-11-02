@@ -98,6 +98,11 @@ section h3 {
     margin-bottom: 1.5rem;
 }
 
+.stakeholder {
+    height: 80px;
+    width: auto;
+}
+
 /* Footer Styles */
 footer {
     /* background-color: #222; */
