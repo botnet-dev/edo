@@ -112,7 +112,7 @@ footer {
 }
 
 footer a.ft-social {
-    color: #FFD700;
+    color: #93c11a !important;
     text-decoration: none;
     margin: 0 10px;
 }
