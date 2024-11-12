@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Email content
-    $to = "your-email@example.com"; // Replace with your email address
+    $to = "dygytator@gmail.com"; // Replace with your email address
     $subject = "Contact Form Message from " . $name;
     $body = "Name: $name\n";
     $body .= "Email: $email\n\n";
