@@ -60,17 +60,17 @@
         <!-- Contact Section -->
         <section class="container py-5">
             <h3 class="text-center mb-4">Contact Us</h3>
-            <form>
+            <form  action="send-email.php" method="POST">
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="name" placeholder="Name" required>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
                     <label for="name" class="form-label">Name</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
                     <label for="email" class="form-label">Email</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <textarea class="form-control" id="message" rows="4" placeholder="Message" required></textarea>
+                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message" required></textarea>
                     <label for="message" class="form-label">Message</label>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
